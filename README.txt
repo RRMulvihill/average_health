@@ -1,6 +1,7 @@
-# average_health
+Average Health
+by Riley Mulvihill
+
 Average Health is a data analysis Python program that generates random data and calculates peoples BMI and averages of the group as a whole.
-"person" objects are created with attributes for name,sex,age,height,and weight
 
 USAGE: Running the program will open a terminal with prompts.
 Example:
