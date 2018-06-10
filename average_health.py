@@ -83,9 +83,7 @@ def averages(people_list, bmi_boolean = False):
     average_weight = round(average_weight/len(people_list),1)
     
     #Print data
-    print('')
-    print('')
-    print("AVERAGES:")
+    print("\n\nAVERAGES:")
     print("Total people: " + str(len(people_list)))
     print("Sex: Males: " + males + "% Females: " + females + "%")
     print("Age: " + str(average_age))
@@ -117,13 +115,7 @@ def generate_data(size):
 #Runs program
 def main():
     run = True
-    print("AVERAGE HEALTH")
-    print("   by Riley Mulvihill")
-    print("")
-    print("Average Health is a data analysis program")
-    print("That generates random data and calculates averages")
-    print("")
-    print("")
+    print("AVERAGE HEALTH\n   by Riley Mulvihill\n\nAverage Health is a data analysis program\nThat generates random data and calculates averages\n\n")
     while(run):
         print("")
         size = input("Specify Test Size (integer):")
@@ -150,10 +142,6 @@ def main():
         else:
             print("Invalid input")
 
-        
-
 main()
-print("")
-print("Thank you for using Average Health")
-print("Hit 'Enter' to close")
+print("\nThank you for using Average Health\nHit 'Enter' to close")
 input()
